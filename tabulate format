@@ -1,0 +1,8 @@
+from tabulate import tabulate
+title =["Name","age","Department"],
+data =[["Raju",21,"CSE"],
+       ["Ramesh",23,"AIML"],
+       ["rajesh",24,"AIDS"],
+       ["praveen",22,"CSD"]]
+res=tabulate(data,headers=title,tablefmt="grid")
+print(res)
